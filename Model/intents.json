@@ -1,0 +1,81 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": [
+                 "hola",
+                 "hola, como estas?",
+                 "buenos dias",
+                 "buenas tardes",
+                 "buenas noches",
+                 "holi",
+                 "muy buenas"],
+         "responses": ["Hola!","Hola, en qué puedo ayudarte?","Hola, cuéntame qué necesitas?","Hola, un gusto conocerte"]
+        
+        },
+        {"tag": "goodbye",
+         "patterns": [
+                 "chao",
+                 "adios",
+                 "hasta pronto",
+                 "muchas gracias",
+                 "gracias",
+                 "te agradezco",
+                 "vemos"],
+         "responses": ["Adios :(","Chao, un gusto conocerte!","Vuelve pronto!"]
+        
+        },
+
+        {"tag": "location",
+         "patterns": [
+                 "donde",
+                 "donde puedo comprar",
+                 "donde los puedo encontrar",
+                 "donde puedo encontrar la tienda",
+                 "donde estan ubicados",
+                 "donde los puedo ubicar",
+                 "lugares fisicos",
+                 "a donde puedo ir",
+                 "como es la direccion",
+                 "en la ciudad donde puedo encontrarlos",
+                 "donde puedo encontrarlos",
+                 "en cual calle se encuentran"
+                ],
+         "responses": ["Puedes encontrarnos en la Calle 100, al lado del Starbucks. Te esperamos."]
+        
+        },
+        {"tag": "shop",
+         "patterns": [
+                 "como es el menu",
+                 "venden",
+                 "que producto tienen a la venta",
+                 "que puedo comprar",
+                 "que hay en el menu",
+                 "catalogo",
+                 "quiero comprar algo",
+                 "me gustaria tener mas informacion",
+                 "quiero comprar",
+                 "productos",
+                 "que tienen a la venta",
+                 "que productos tienen disponibles",
+                 "galletas"
+        ],
+         "responses": ["Tenemos Galletas Chocolate a $2000, Galletas de Coco a $9999 y nuestros cafés todos a $50"]
+         
+        },
+        {"tag": "hours",
+         "patterns": [
+                 "como es su horario",
+                 "a que hora abren",
+                 "esta abierto",
+                 "abren los fines de semana",
+                 "hasta que horas esta abierto",
+                 "a que horas cierran",
+                 "horas",
+                 "atienden los fines de semana",
+                 "lunes a viernes",
+                 "sabado",
+                 "domingo"],
+         "responses": ["Abrimos de Lunes a Domingo. 6am-10pm"]
+         
+        }
+   ]
+}
